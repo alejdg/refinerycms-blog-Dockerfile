@@ -20,5 +20,5 @@ RUN  rails generate refinery:authentication:devise
 RUN rake db:migrate
 RUN rake db:seed
 
-EXPOSE 3000en
+EXPOSE 3000
 CMD ["rails", "server", "-b", "0.0.0.0"]
